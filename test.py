@@ -1,5 +1,4 @@
 from kivy.app import App
-from kivy.uix.label import Label
 
 from kivy.core.text import LabelBase, DEFAULT_FONT
 from kivy.resources import resource_add_path
@@ -9,8 +8,8 @@ LabelBase.register(DEFAULT_FONT, 'msmincho.ttc')
 
 #App().run()
 
-class TextApp(App):
-    def build(self):
-        return Label(text='こんにちは')
+class TestApp(App):
+    pass
 
-TextApp().run()
+if __name__=='__main__':
+    TestApp().run()
