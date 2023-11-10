@@ -1,3 +1,6 @@
+import os
+os.environ ['KIVY_GL_BACKEND'] = 'angle_sdl2'
+
 from kivy.app import App
 
 from kivy.core.text import LabelBase, DEFAULT_FONT
